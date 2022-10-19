@@ -1,0 +1,39 @@
+<html>
+    <head> 
+        <title>Animal Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Pacifico&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+    <body> 
+        <div class="col-xs-12 header_div text-center">
+            <h2> animal  noise  detector !</h2>
+            <p> note:  make  noises  such  as  roars , barks , bird chirps  or  meowing  to  make  it  work !</p>
+        </div>
+        <div class="main_div">
+            <center>
+                <br>
+                <button class="btn btn-warning" onclick="startClassification();">S T A R T</button>
+                <h3 id="result-lbl-1">I  can  hear... :</h3>
+                <h3 id="confidence">accuracy  :</h3>
+                <br>
+                <image src="ear 2.png" id="animal" width="300" height="300"></image>
+            </center>
+        </div>
+     <div class="copy-right-footer"> 
+        developed  by  Saanvi  R.
+     </div>
+
+     <script src="main.js"></script>
+    </body>
+</html>
